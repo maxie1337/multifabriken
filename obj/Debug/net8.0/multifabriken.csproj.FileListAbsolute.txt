@@ -1,0 +1,15 @@
+C:\Users\Max\Documents\GitHub\multifabriken\bin\Debug\net8.0\multifabriken.exe
+C:\Users\Max\Documents\GitHub\multifabriken\bin\Debug\net8.0\multifabriken.deps.json
+C:\Users\Max\Documents\GitHub\multifabriken\bin\Debug\net8.0\multifabriken.runtimeconfig.json
+C:\Users\Max\Documents\GitHub\multifabriken\bin\Debug\net8.0\multifabriken.dll
+C:\Users\Max\Documents\GitHub\multifabriken\bin\Debug\net8.0\multifabriken.pdb
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.AssemblyInfoInputs.cache
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.AssemblyInfo.cs
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.sourcelink.json
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.dll
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\refint\multifabriken.dll
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.pdb
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\multifabriken.genruntimeconfig.cache
+C:\Users\Max\Documents\GitHub\multifabriken\obj\Debug\net8.0\ref\multifabriken.dll

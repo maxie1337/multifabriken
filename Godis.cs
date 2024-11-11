@@ -4,17 +4,17 @@ namespace multifabriken;
 
 public class Godis {
 
-public string candyFlavour {get; set;}
-public int amountOfCandy {get; set;}
+public string CandyFlavour {get; set;}
+public int AmountOfCandy {get; set;}
 
 public Godis (string candyflavour, int amountofcandy) {
-    candyFlavour = candyflavour;
-    amountOfCandy = amountofcandy;
+    CandyFlavour = candyflavour;
+    AmountOfCandy = amountofcandy;
 }
 
     public override string ToString()
     {
-        return $"Godis - Godissmak: {candyFlavour}, Antal Godisbitar: {amountOfCandy}";
+        return $"Godis - Godissmak: {CandyFlavour}, Antal Godisbitar: {AmountOfCandy} bitar";
     }
 
 }

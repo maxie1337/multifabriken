@@ -5,20 +5,20 @@ namespace multifabriken;
 
 public class Bilar
 {
-public string regNumber {get; set;}
-public string carColour {get; set;}
+public string RegNumber {get; set;}
+public string CarColour {get; set;}
 
-public string carModel {get; set;}
+public string CarModel {get; set;}
 
 public Bilar (string regnumber, string carcolour, string carmodel) {
-    regNumber = regnumber;
-    carColour = carcolour;
-    carModel = carmodel;
+    RegNumber = regnumber;
+    CarColour = carcolour;
+    CarModel = carmodel;
 }
 
     public override string ToString()
     {
-        return $"Bil - Registreringsnummber: {regNumber}, Färg: {carColour}, Bilmärke: {carModel}";
+        return $"Bil - Registreringsnummber: {RegNumber}, Färg: {CarColour}, Bilmärke: {CarModel}";
     }
 
 }
