@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Bestallningssystem
+namespace multifabriken
 {
     class Program
     {
