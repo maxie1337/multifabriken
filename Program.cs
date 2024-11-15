@@ -147,29 +147,24 @@ namespace multifabriken
         static void OrderMilk() {
 
             Console.Clear();
-            System.Console.WriteLine("Fyll i följande uppgifter för att beställa din nya bil:");
-            System.Console.WriteLine("1. Registreringsnummer");
-            System.Console.WriteLine("2. Färg på bilen");
-            System.Console.WriteLine("3. Modell på bilen");
-            System.Console.WriteLine("När du har skrivit in dina alternativ, tryck på enter för att spara bilen i kundvagnen!");
+            System.Console.WriteLine("Fyll i följande uppgifter för att beställa din Havremjölk:");
+            System.Console.WriteLine("1. Fetthalt");
+            System.Console.WriteLine("2. Litermängd");
+            System.Console.WriteLine("När du har skrivit in dina alternativ, tryck på enter för att spara Havremjölken i kundvagnen!");
 
-            System.Console.Write("Registreringsnummer: ");
-            string regNumber = Console.ReadLine();
+            System.Console.Write("Fetthalt: ");
+            string fettHalt = Console.ReadLine();
 
-            System.Console.Write("Färg på bilen: ");
-            string carColor = Console.ReadLine();
-
-            System.Console.Write("Modell på bilen: ");
-            string carModel = Console.ReadLine();
+            System.Console.Write("Litermängd: ");
+            string literAmount = Console.ReadLine();
 
             
-            if (!string.IsNullOrEmpty(regNumber) && 
-                !string.IsNullOrEmpty(carColor) && 
-                !string.IsNullOrEmpty(carModel))
+            if (double.TryParse(fettHalt, out  double fett) &&
+                double.TryParse(literAmount, out double liter))
            {
-             Console.WriteLine($"Din bil med Registreringsnummer {regNumber}, färgen {carColor} och modellen {carModel} är nu beställd.");
-             Bilar bil = new Bilar(regNumber, carColor, carModel);
-             kundvagn.AddProduct(bil);
+             Console.WriteLine($"Din havremjölk med fetthalten {fettHalt} och litermängden {literAmount} är nu beställd.");
+             Havremjölk havre = new Havremjölk(fett, liter);
+             kundvagn.AddProduct(havre);
 
              Console.WriteLine("Tryck på valfri tangent för att återgå till menyn...");
              Console.ReadKey(); 
@@ -179,7 +174,7 @@ namespace multifabriken
              Console.WriteLine("Du har missat att skriva in något av alternativen, kontrollera och försök igen.");
              Console.WriteLine("Tryck på valfri tangent för att beställa igen!");
              Console.ReadKey();
-             OrderCar();
+             OrderMilk();
            }
 
         }
@@ -187,25 +182,19 @@ namespace multifabriken
         static void OrderPipe () {
 
             Console.Clear();
-            System.Console.WriteLine("Fyll i följande uppgifter för att beställa din nya bil:");
-            System.Console.WriteLine("1. Registreringsnummer");
-            System.Console.WriteLine("2. Färg på bilen");
-            System.Console.WriteLine("3. Modell på bilen");
-            System.Console.WriteLine("När du har skrivit in dina alternativ, tryck på enter för att spara bilen i kundvagnen!");
+            System.Console.WriteLine("Fyll i följande uppgifter för att beställa ditt rör:");
+            System.Console.WriteLine("1. Diameter");
+            System.Console.WriteLine("2. Längd");
+            System.Console.WriteLine("När du har skrivit in dina alternativ, tryck på enter för att spara röret i kundvagnen!");
 
-            System.Console.Write("Registreringsnummer: ");
-            string regNumber = Console.ReadLine();
+            System.Console.Write("Diameter; ");
+            string rörDiameter = Console.ReadLine();
 
-            System.Console.Write("Färg på bilen: ");
-            string carColor = Console.ReadLine();
-
-            System.Console.Write("Modell på bilen: ");
-            string carModel = Console.ReadLine();
+            System.Console.Write("Längd: ");
+            string rörLängd = Console.ReadLine();
 
             
-            if (!string.IsNullOrEmpty(regNumber) && 
-                !string.IsNullOrEmpty(carColor) && 
-                !string.IsNullOrEmpty(carModel))
+            if ()
            {
              Console.WriteLine($"Din bil med Registreringsnummer {regNumber}, färgen {carColor} och modellen {carModel} är nu beställd.");
              Bilar bil = new Bilar(regNumber, carColor, carModel);
