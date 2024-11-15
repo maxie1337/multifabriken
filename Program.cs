@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection.Metadata;
+using System.Reflection.Metadata.Ecma335;
 
 namespace multifabriken
 {
@@ -22,7 +23,7 @@ namespace multifabriken
             System.Console.WriteLine("3. Beställ Havremjölk");
             System.Console.WriteLine("4. Beställ rör av olika längd");
             System.Console.WriteLine("5. Se kundvagn");
-            System.Console.WriteLine("6. Logga ut");
+            System.Console.WriteLine("6. Avsluta program");
 
             Console.Write("Välj ett alternativ: ");
             string val = Console.ReadLine();
@@ -89,7 +90,7 @@ namespace multifabriken
            {
              Console.WriteLine($"Din bil med Registreringsnummer {regNumber}, färgen {carColor} och modellen {carModel} är nu beställd.");
              Bilar bil = new Bilar(regNumber, carColor, carModel);
-             kundvagn.AddProduct(bil);
+             kundvagn.AddBil(bil);
 
              Console.WriteLine("Tryck på valfri tangent för att återgå till menyn...");
              Console.ReadKey(); 
@@ -129,7 +130,7 @@ namespace multifabriken
            {
              Console.WriteLine($"Din godisbeställning med smak {candyFlavour} på {candyAmount} bitar är nu beställd");
              Godis godis = new Godis(candyFlavour, candyAmount);
-             kundvagn.AddProduct(godis);
+             kundvagn.AddGodis(godis);
 
              Console.WriteLine("Tryck på valfri tangent för att återgå till menyn...");
              Console.ReadKey(); 
@@ -164,7 +165,7 @@ namespace multifabriken
            {
              Console.WriteLine($"Din havremjölk med fetthalten {fettHalt} och litermängden {literAmount} är nu beställd.");
              Havremjölk havre = new Havremjölk(fett, liter);
-             kundvagn.AddProduct(havre);
+             kundvagn.AddHavremjölk(havre);
 
              Console.WriteLine("Tryck på valfri tangent för att återgå till menyn...");
              Console.ReadKey(); 
@@ -199,10 +200,10 @@ namespace multifabriken
            {
              Console.WriteLine($"Ditt rör med diamatern {rörDiameter} cm och längden {rörLängd} cm är nu beställt.");
              Rör rör = new Rör(diameter, längd);
-             kundvagn.AddProduct(rör);
+             kundvagn.AddRör(rör);
 
              Console.WriteLine("Tryck på valfri tangent för att återgå till menyn...");
-             Console.ReadKey(); 
+             Console.ReadKey();
              return;
            } else
            {

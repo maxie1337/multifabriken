@@ -18,7 +18,7 @@ public Bilar (string regnumber, string carcolour, string carmodel) {
 
     public override string ToString()
     {
-        return $"Bil - Registreringsnummber: {RegNumber}, Färg: {CarColour}, Bilmärke: {CarModel}";
+        return $"Registreringsnummer: {RegNumber}, Färg: {CarColour}, Bilmärke: {CarModel}";
     }
 
 }
