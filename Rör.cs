@@ -4,17 +4,17 @@ namespace multifabriken;
 
 public class Rör
 {
-  public double Diameter { get; }
-        public double Längd { get; }
+public double Diameter { get; set;}
+public double Längd { get; set;}
 
-        public Rör(double diameter, double längd)
-        {
-            Diameter = diameter;
-            Längd = längd;
-        }
+public Rör(double diameter, double längd)
+{
+    Diameter = diameter;
+    Längd = längd;
+}
 
-        public override string ToString()
-        {
-            return $"Rör - Diameter: {Diameter} cm, Längd: {Längd} cm";
-        }
+    public override string ToString()
+    {
+        return $"Diameter: {Diameter} cm, Längd: {Längd} cm";
+    }
 }

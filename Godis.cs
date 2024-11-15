@@ -14,7 +14,7 @@ public Godis (string candyflavour, string amountofcandy) {
 
     public override string ToString()
     {
-        return $"Godis - Godissmak: {CandyFlavour}, Antal Godisbitar: {AmountOfCandy} bitar";
+        return $"Godissmak: {CandyFlavour}, Antal Godisbitar: {AmountOfCandy} bitar";
     }
 
 }

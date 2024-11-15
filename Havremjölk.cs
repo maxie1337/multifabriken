@@ -15,6 +15,6 @@ public Havremjölk (double fetthalt, double litermängd) {
 
     public override string ToString()
     {
-        return $"Havremjölk - Fetthalt: {Fetthalt}%, Litermängd: {Litermängd} L";
+        return $"Fetthalt: {Fetthalt}%, Litermängd: {Litermängd} L";
     }
 }
