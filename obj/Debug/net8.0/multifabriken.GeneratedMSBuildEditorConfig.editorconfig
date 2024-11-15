@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = multifabriken
-build_property.ProjectDir = C:\Users\Max\Documents\GitHub\multifabriken\
+build_property.ProjectDir = C:\Users\Max\Documents\Github\multifabriken\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max\\Documents\\GitHub\\multifabriken\\multifabriken.csproj": {}
+    "C:\\Users\\Max\\Documents\\Github\\multifabriken\\multifabriken.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max\\Documents\\GitHub\\multifabriken\\multifabriken.csproj": {
+    "C:\\Users\\Max\\Documents\\Github\\multifabriken\\multifabriken.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Documents\\GitHub\\multifabriken\\multifabriken.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\Documents\\Github\\multifabriken\\multifabriken.csproj",
         "projectName": "multifabriken",
-        "projectPath": "C:\\Users\\Max\\Documents\\GitHub\\multifabriken\\multifabriken.csproj",
+        "projectPath": "C:\\Users\\Max\\Documents\\Github\\multifabriken\\multifabriken.csproj",
         "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\Documents\\GitHub\\multifabriken\\obj\\",
+        "outputPath": "C:\\Users\\Max\\Documents\\Github\\multifabriken\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config"
