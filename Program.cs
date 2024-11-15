@@ -187,18 +187,19 @@ namespace multifabriken
             System.Console.WriteLine("2. Längd");
             System.Console.WriteLine("När du har skrivit in dina alternativ, tryck på enter för att spara röret i kundvagnen!");
 
-            System.Console.Write("Diameter; ");
+            System.Console.Write("Diameter: ");
             string rörDiameter = Console.ReadLine();
 
             System.Console.Write("Längd: ");
             string rörLängd = Console.ReadLine();
 
             
-            if ()
+            if (double.TryParse(rörDiameter, out double diameter) &&
+                double.TryParse(rörLängd, out double längd))
            {
-             Console.WriteLine($"Din bil med Registreringsnummer {regNumber}, färgen {carColor} och modellen {carModel} är nu beställd.");
-             Bilar bil = new Bilar(regNumber, carColor, carModel);
-             kundvagn.AddProduct(bil);
+             Console.WriteLine($"Ditt rör med diamatern {rörDiameter} cm och längden {rörLängd} cm är nu beställt.");
+             Rör rör = new Rör(diameter, längd);
+             kundvagn.AddProduct(rör);
 
              Console.WriteLine("Tryck på valfri tangent för att återgå till menyn...");
              Console.ReadKey(); 
@@ -208,7 +209,7 @@ namespace multifabriken
              Console.WriteLine("Du har missat att skriva in något av alternativen, kontrollera och försök igen.");
              Console.WriteLine("Tryck på valfri tangent för att beställa igen!");
              Console.ReadKey();
-             OrderCar();
+             OrderPipe();
            }
 
         }
